@@ -24,8 +24,6 @@ namespace MyShop.Controllers
 
     public class HomeController : Controller
     {
-        
-      
 
         private readonly IUserViewService _userViewService;
         private readonly IProductViewService _productViewService;

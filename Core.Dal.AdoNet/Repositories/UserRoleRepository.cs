@@ -21,7 +21,6 @@
 
         public override UserRole GetSingle(int key)
         {
-        
             var command = Connection.CreateCommand();
             command.CommandText = $"{BaseQuery} where Id ={key};" +
                 $"SELECT cred.*   FROM [MyShop].[dbo].[UserRoleCredentials] cr   join [dbo].[Credentials] cred on cr.Credential_Id= cred.Id  where cr.UserRole_Id={key}";
