@@ -21,3 +21,4 @@ public HomeController(IObjectFactory objectFactory) {} -ׂ׃ׂ ־Ê.
 ProductGroupServiceImpl
 לועמה ViewAll()
 ProductCategory = new ProductCategoryViewModel(_sourceFactory.CreateRepository<ProductCategory, int>().GetSingle(c.ProductCategoryid))
+
